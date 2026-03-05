@@ -79,6 +79,20 @@
             margin-top: 60px;
             font-size: 14px;
         }
+        .about-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
     </style>
 </head>
 
@@ -96,16 +110,19 @@
     
 </header>
 
-<div class="container">
+<div class="about-section">
+    <img src="profile.jpg" alt="George Kyereboah" class="profile-pic">
 
-    <h2>About Me</h2>
-    <p>
-        Geospatial professional with experience in cadastral surveying, GNSS data collection,
-        boundary verification, and spatial data management. Skilled in integrating field survey
-        data into GIS platforms and developing Python-based workflows for spatial analysis.
-        Strong hybrid background bridging field operations and geospatial data analysis.
-    </p>
-
+    <div>
+        <h2>About Me</h2>
+        <p>
+            Geospatial professional with experience in cadastral surveying, GNSS data collection,
+            boundary verification, and spatial data management. Skilled in integrating field survey
+            data into GIS platforms and developing Python-based workflows for spatial analysis.
+            Strong hybrid background bridging field operations and geospatial data analysis.
+        </p>
+    </div>
+</div>
     <a class="btn" href="mailto:kyereboahgeorge@gmail.com">Contact Me</a>
     <a class="btn" href="https://www.linkedin.com/in/george-kyereboah" target="_blank">LinkedIn</a>
 
